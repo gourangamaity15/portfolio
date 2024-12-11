@@ -62,7 +62,7 @@ export function Navbar() {
 
   return (
     <aside className="bg-white border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0">
-      <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
+      <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 px-2">
         <div className="flex items-center cursor-pointer">
           <Link
             href="/home"
@@ -74,7 +74,7 @@ export function Navbar() {
         </div>
 
         {/* Mobile Menu Toggle (Hamburger Icon or Close Icon) */}
-        <button className="md:hidden text-2xl" onClick={toggleMenu}>
+        <button className="md:hidden text-4xl" onClick={toggleMenu}>
           {isMobileMenuOpen ? "×" : "☰"}
         </button>
 
